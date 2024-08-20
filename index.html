@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Generator</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <!-- Typewriter -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container-main">
+      <header>
+        <div>
+          <h1>AI Generator</h1>
+        </div>
+      </header>
+      <main>
+        <!-- form -->
+        <form id="text-generator-form">
+          <input
+            type="text"
+            placeholder="Enter a word or a theme..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+            id="user-instructions"
+          />
+          <!-- submit button -->
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="hint">i.e: Spring, Food or Sun</div>
+        <!-- output text -->
+        <div class="text hidden" id="text">
+          I told my dog to fetch the stick,
+          <br />
+          he brought back my shoe real quick!
+        </div>
+      </main>
+    </div>
+
+    <!-- footer -->
+    <script src="src/index.js"></script>
+    <footer class="p-3 mt-5 text-center bgc-white">
+      This project was coded by
+      <a href="https://github.com/HeyTiina" target="_blank"
+        >Valentina Bastidas C.</a
+      >, is
+      <a href="https://github.com/HeyTiina/VanillaMeteo" target="_blank"
+        >open-sourced on GitHub</a
+      >
+      and
+      <a href="https://www.netlify.com/" target="_blank">hosted on Netlify</a>
+    </footer>
+
+    <!-- script -->
+    <script src="src/index.js"></script>
+  </body>
+</html>

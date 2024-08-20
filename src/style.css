@@ -1,0 +1,97 @@
+body {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.container-main {
+  background-color: #c9fdd7;
+  margin: 20px;
+  border-radius: 30px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  color: #1eb89f;
+  margin: 20px;
+}
+
+.instructions {
+  font-family: "Oswald", sans-serif;
+  border-radius: 30px;
+  width: 30%;
+  padding: 30px;
+  border-width: 0cm;
+  font-size: 18px;
+}
+
+.submit-button {
+  font-family: "Oswald", sans-serif;
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: #6892d5;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  border-width: 3px;
+  border-color: #6892d5;
+}
+
+.submit-button:hover {
+  background-color: #4b7fd4;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 10px;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.text {
+  padding: 20px;
+  margin: 0px 20%;
+  font-size: 18px;
+  line-height: 2;
+  justify-content: center;
+}
+
+.text strong {
+  color: #885df1;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  position: inherit;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
